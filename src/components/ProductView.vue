@@ -56,12 +56,15 @@ export default {
   },
 
   created() {
-    // Lấy ID sản phẩm từ route
-    this.productId = this.$route.params.id;
-    
-    // Gọi action để lấy chi tiết sản phẩm
-    this.fetchProductDetails(this.productId);
-  },
+  this.productId = this.$route.params.id;
+  this.fetchProductDetails(this.productId)
+    .then(() => {
+      console.log('Fetched product details:', this.productDetails);
+    })
+    .catch(error => {
+      console.error('Error fetching product:', error);
+    });
+},
 
   methods: {
     ...mapActions('products', ['fetchProductDetails']),
@@ -85,7 +88,6 @@ export default {
     addToCart(product) {
       if (product) {
         this.$store.dispatch('cart/addToCart', product);
-        this.$toast.success(`Added ${product.name} to cart!`);
       }
     }
   }

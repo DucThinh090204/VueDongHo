@@ -154,11 +154,11 @@
     },
     {
       "id": 20,
-      "name": "Tissot Le Locle TIS001",
+      "name": "Omega Diamo OME005",
       "price": 12000000,
       "description": "Đồng hồ cơ tự động, thiết kế thanh lịch, phù hợp cho các dịp trang trọng.",
       "stock": 15,
-      "img": "assets/watch/Tissot_TIS001.webp"
+      "img": "assets/watch/Omega_OME005.webp"
     }
   ],
   "user": [],

@@ -164,7 +164,6 @@ methods: {
     if (product.stock > 0) {
       this.$store.dispatch('cart/addToCart', product)
       console.log("product : ")
-      this.$toast.success(`Added ${product.name} to cart!`)
     }
   }
 }

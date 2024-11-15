@@ -2,7 +2,9 @@
   <header>
     <div class="container">
       <div class="logo">
+        <router-link to="/">
         <img src="Images/logo.png" alt="Watch Store Logo">
+        </router-link>
       </div>
       <nav>
         <ul>

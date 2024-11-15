@@ -33,7 +33,12 @@ export default {
     },
     actions: {
       addToCart({ commit }, product) {
-        commit('ADD_TO_CART', product); // Gọi mutation để thêm sản phẩm vào giỏ
+        if (!product) {
+          console.error('Cannot add undefined product to cart');
+          return;
+        }
+        console.log('Adding product to cart:', product);
+        commit('ADD_TO_CART', product);
       },
       removeFromCart({ commit }, productId) {
         commit('REMOVE_FROM_CART', productId); // Gọi mutation để xóa sản phẩm khỏi giỏ
