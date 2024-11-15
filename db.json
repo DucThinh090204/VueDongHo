@@ -1,0 +1,165 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Rolex Submariner RLX001",
+        "price": 250000000,
+        "description": "Đồng hồ cơ lặn chuyên nghiệp, chống nước lên đến 300m, thiết kế sang trọng.",
+        "stock": 10,
+        "img": "/Images/Rolex_RLX001.webp"
+      },
+      {
+        "id": 2,
+        "name": "Rolex Daytona RLX002",
+        "price": 500000000,
+        "description": "Đồng hồ bấm giờ cao cấp, dành cho những người yêu thích thể thao.",
+        "stock": 8,
+        "img": "/Images/Rolex_RLX002.webp"
+      },
+      {
+        "id": 3,
+        "name": "Rolex Yacht-Master RLX003",
+        "price": 300000000,
+        "description": "Đồng hồ dành cho các nhà thám hiểm, độ bền cao, hoạt động ổn định trong mọi điều kiện.",
+        "stock": 5,
+        "img": "/Images/Rolex_RLX003.webp"
+      },
+      {
+        "id": 4,
+        "name": "Rolex Day-Date RLX004",
+        "price": 700000000,
+        "description": "Đồng hồ vàng nguyên khối, hiển thị ngày và thứ, biểu tượng của quyền lực.",
+        "stock": 3,
+        "img": "/Images/Rolex_RLX004.webp"
+      },
+      {
+        "id": 5,
+        "name": "Rolex GMT-Master II RLX005",
+        "price": 350000000,
+        "description": "Đồng hồ chống từ tính, thiết kế dành cho các nhà khoa học.",
+        "stock": 6,
+        "img": "/Images/Rolex_RLX005.webp"
+      },
+      {
+        "id": 6,
+        "name": "Seiko 5 Sports SKX001",
+        "price": 5000000,
+        "description": "Đồng hồ thể thao tự động, phù hợp cho người yêu thích sự bền bỉ và phong cách.",
+        "stock": 25,
+        "img": "/Images/Seiko_SKX001.webp"
+      },
+      {
+        "id": 7,
+        "name": "Seiko Presage SRP002",
+        "price": 10000000,
+        "description": "Thiết kế cổ điển, chất lượng Nhật Bản, mặt kính sapphire chống xước.",
+        "stock": 20,
+        "img": "/Images/Seiko_SRP002.webp"
+      },
+      {
+        "id": 8,
+        "name": "Seiko Prospex SPX003",
+        "price": 15000000,
+        "description": "Đồng hồ lặn chuyên dụng, khả năng chống nước lên đến 200m.",
+        "stock": 12,
+        "img": "/Images/Seiko_SPX003.webp"
+      },
+      {
+        "id": 9,
+        "name": "Seiko Astron SAS004",
+        "price": 30000000,
+        "description": "Đồng hồ GPS Solar, thiết kế hiện đại, luôn đúng giờ bất kể nơi đâu.",
+        "stock": 10,
+        "img": "/Images/Seiko_SAS004.webp"
+      },
+      {
+        "id": 10,
+        "name": "Seiko Alpinist SARB005",
+        "price": 12000000,
+        "description": "Đồng hồ dành cho các nhà thám hiểm, kiểu dáng độc đáo và chắc chắn.",
+        "stock": 18,
+        "img": "/Images/Seiko_SARB005.webp"
+      },
+      {
+        "id": 11,
+        "name": "Orient Bambino ORT001",
+        "price": 7000000,
+        "description": "Thiết kế cổ điển với kính cong, phù hợp với phong cách thanh lịch.",
+        "stock": 15,
+        "img": "/Images/Orient_ORT001.webp"
+      },
+      {
+        "id": 12,
+        "name": "Orient Mako II ORT002",
+        "price": 6000000,
+        "description": "Đồng hồ lặn bền bỉ, chống nước 200m, phù hợp với phong cách thể thao.",
+        "stock": 20,
+        "img": "/Images/Orient_ORT002.webp"
+      },
+      {
+        "id": 13,
+        "name": "Orient Sun and Moon ORT003",
+        "price": 10000000,
+        "description": "Đồng hồ tự động với tính năng Sun and Moon độc đáo.",
+        "stock": 10,
+        "img": "/Images/Orient_ORT003.webp"
+      },
+      {
+        "id": 14,
+        "name": "Orient Kamasu ORT004",
+        "price": 8000000,
+        "description": "Đồng hồ lặn phổ biến, kính sapphire, thiết kế hiện đại.",
+        "stock": 18,
+        "img": "/Images/Orient_ORT004.webp"
+      },
+      {
+        "id": 15,
+        "name": "Orient Star Retrograde ORT005",
+        "price": 15000000,
+        "description": "Đồng hồ cao cấp với cơ chế Retrograde tinh xảo.",
+        "stock": 5,
+        "img": "/Images/Orient_ORT005.webp"
+      },
+      {
+        "id": 16,
+        "name": "Omega Seamaster OME001",
+        "price": 200000000,
+        "description": "Đồng hồ lặn cao cấp, thiết kế sang trọng và khả năng chống nước 300m.",
+        "stock": 8,
+        "img": "/Images/Omega_OME001.webp"
+      },
+      {
+        "id": 17,
+        "name": "Omega Speedmaster OME002",
+        "price": 250000000,
+        "description": "Đồng hồ đầu tiên lên mặt trăng, biểu tượng của sự bền bỉ và chính xác.",
+        "stock": 6,
+        "img": "/Images/Omega_OME002.webp"
+      },
+      {
+        "id": 18,
+        "name": "Omega Constellation OME003",
+        "price": 300000000,
+        "description": "Thiết kế cổ điển, dành cho người yêu thích sự tinh tế.",
+        "stock": 4,
+        "img": "/Images/Omega_OME003.webp"
+      },
+      {
+        "id": 19,
+        "name": "Omega De Ville OME004",
+        "price": 180000000,
+        "description": "Đồng hồ sang trọng, mặt số đơn giản mà đẳng cấp.",
+        "stock": 10,
+        "img": "/Images/Omega_OME004.webp"
+      },
+      {
+        "id": 20,
+        "name": "Omega Aqua Terra OME005",
+        "price": 220000000,
+        "description": "Đồng hồ tự động với thiết kế phù hợp cho cả thể thao và công sở.",
+        "stock": 7,
+        "img": "/Images/Omega_OME005.webp"
+      }
+    ]
+  }
+  
