@@ -84,13 +84,16 @@ export default {
       }
     },
     async fetchProductDetails({ commit }, productId) {
-        console.log('Fetching product details for ID:', productId); // Kiểm tra giá trị productId
+      console.log('Fetching product details for ID:', productId); // Kiểm tra giá trị productId
       commit('SET_LOADING', true);
       commit('SET_ERROR', null);
       try {
         const response = await axios.get(`http://localhost:3000/products/${productId}`);
         console.log('Fetched product details:', response.data); // Kiểm tra dữ liệu trả về
-        commit('SET_PRODUCT_DETAILS', response.data); // Cập nhật thông tin chi tiết sản phẩm
+        commit('SET_PRODUCT_DETAILS', {
+          ...response.data,
+          maxQuantity: response.data.stock // Ánh xạ stock sang maxQuantity
+        }); // Cập nhật thông tin chi tiết sản phẩm
       } catch (error) {
         commit('SET_ERROR', error.message);
         console.error('Error fetching product details:', error);

@@ -85,11 +85,45 @@ export default {
       return price ? new Intl.NumberFormat('vi-VN').format(price) : '0';
     },
 
-    addToCart(product) {
-      if (product) {
-        this.$store.dispatch('cart/addToCart', product);
+    async addToCart() {
+      // Kiểm tra kỹ dữ liệu trước khi dispatch
+      if (!this.product) {
+        console.error('Invalid product: No product found');
+        return;
       }
+
+      try {
+        await this.$store.dispatch('cart/addToCart', {
+          product: {
+            id: this.product.id,
+            name: this.product.name,
+            price: this.product.price,
+            image: this.product.img, // Chú ý sử dụng 'img' thay vì 'image'
+            stock: this.product.stock
+          },
+          quantity: 1
+        });
+
+        // Thêm thông báo thành công (tùy chọn)
+        alert('Sản phẩm đã được thêm vào giỏ hàng');
+      } catch (error) {
+        console.error('Error adding to cart:', error);
+        // Hiển thị thông báo lỗi cho người dùng
+        alert('Không thể thêm sản phẩm vào giỏ hàng');
+      }
+    },
+
+    async handleAddToCart() {
+    try {
+      // Đảm bảo truyền đúng object có id
+      await this.$store.dispatch('cart/addToCart', {
+        id: this.product.id,  // Chắc chắn có id
+        quantity: 1  // Số lượng, có thể điều chỉnh
+      });
+    } catch (error) {
+      console.error('Error adding to cart:', error);
     }
+  }
   }
 }
 </script>

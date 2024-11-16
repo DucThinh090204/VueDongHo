@@ -8,3 +8,5 @@ createApp(App)
   .use(store) // Đảm bảo sử dụng store
   .use(router)
   .mount('#app')
+
+  store.dispatch('cart/initializeCart')
